@@ -17,3 +17,6 @@ $ ./config.cmd --url https://github.com/Re-ONee/actions-learning-pathway --token
 $ ./run.cmd
 
 
+## Using your self-hosted runner
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
